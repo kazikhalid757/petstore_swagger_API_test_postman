@@ -1,0 +1,194 @@
+{
+	"id": "4f57a672-90a2-4c0f-873b-85f13574880e",
+	"name": "Petstore API CRUD_tamim",
+	"timestamp": "2023-10-31T06:23:07.715Z",
+	"collection_id": "30848850-63dcc92a-77c7-425d-8e19-e15ea87e22de",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-10-31T06:23:03.896Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4195a1a7-4993-4f3a-abda-2aca2c72e735",
+			"name": "Create_user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 1326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status String is OK": true,
+				"Response message is 'some number'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status String is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response message is 'some number'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1326
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status String is OK": true,
+					"Response message is 'some number'": true
+				}
+			]
+		},
+		{
+			"id": "e5ea5d00-0a22-4197-b9b7-e473245c5e8b",
+			"name": "login",
+			"url": "https://petstore.swagger.io/v2/user/login",
+			"time": 393,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status String is OK": true,
+				"Response message is 'logged'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status String is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response message is 'logged'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				393
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status String is OK": true,
+					"Response message is 'logged'": true
+				}
+			]
+		},
+		{
+			"id": "60ca960d-1a30-4716-a1da-f687e0bd030b",
+			"name": "Update_username",
+			"url": "https://petstore.swagger.io/v2/user/kazitamim61",
+			"time": 762,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status String is OK": true,
+				"Response message is 'some number'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status String is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response message is 'some number'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				762
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status String is OK": true,
+					"Response message is 'some number'": true
+				}
+			]
+		},
+		{
+			"id": "44c14b53-6186-41e6-a003-f6642995ab58",
+			"name": "delet_user",
+			"url": "https://petstore.swagger.io/v2/user/kazitamim61",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status String is OK": true,
+				"Full Response Body Check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status String is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Full Response Body Check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				255
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status String is OK": true,
+					"Full Response Body Check": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2736,
+	"collection": {
+		"requests": [
+			{
+				"id": "4195a1a7-4993-4f3a-abda-2aca2c72e735",
+				"method": "POST"
+			},
+			{
+				"id": "e5ea5d00-0a22-4197-b9b7-e473245c5e8b",
+				"method": "GET"
+			},
+			{
+				"id": "60ca960d-1a30-4716-a1da-f687e0bd030b",
+				"method": "PUT"
+			},
+			{
+				"id": "44c14b53-6186-41e6-a003-f6642995ab58",
+				"method": "GET"
+			}
+		]
+	}
+}
