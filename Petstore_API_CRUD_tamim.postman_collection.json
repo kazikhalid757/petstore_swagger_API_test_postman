@@ -189,8 +189,8 @@
 							"pm.test(\"Status String is OK\", function () {\r",
 							"    pm.response.to.have.status(\"OK\");\r",
 							"});\r",
-							"pm.test(\"Full Response Body Check\", function () {\r",
-							"    pm.expect(jsonData.id).to.be.a(\"number\");\r",
+							"pm.test(\"Response message is 'some number'\", function () {\r",
+							"    pm.expect(jsonData.message).to.be.a(\"string\");\r",
 							"\r",
 							"});\r",
 							"\r",
@@ -200,11 +200,8 @@
 					}
 				}
 			],
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
 				"body": {
 					"mode": "raw",
